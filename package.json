@@ -8,7 +8,8 @@
     "oldBuild": "rimraf ./build && react-app-rewired build",
     "buildUp": "node scripts/buildDir/build",
     "resetDevEnv": "node scripts/resetDevEnv",
-    "docs": "node scripts/docs"
+    "docs": "node scripts/docs",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "bc-bank-design": "^0.0.24",
