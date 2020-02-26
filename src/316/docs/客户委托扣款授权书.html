@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,
+        body,
+        div,
+        p,
+        ul,
+        ol,
+        li,
+        dl,
+        dt,
+        dd,
+        table,
+        tr,
+        td,
+        th,
+        caption,
+        form,
+        hr,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        input,
+        img {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        html {
+            /*font-size: 100px;*/
+            font-size: 26.67vw;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        img {
+            border: none;
+            display: block;
+        }
+
+        i {
+            display: block;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+            background: #FFFFFF;
+        }
+
+        .box h3 {
+            text-align: center;
+            font-size: 0.2rem;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.32rem;
+            padding: 0.24rem 0 0.2rem;
+        }
+
+        .box h6 {
+            text-align: left;
+            font-size: 0.22rem;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.32rem;
+        }
+
+        .box .card {
+            padding: 0 0 0.15rem 0 !important;
+            font-size: 0.16rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.26rem;
+        }
+
+        .company {
+            padding: 0 0.15rem 0.12rem;
+            font-size: 0.16rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.26rem;
+        }
+
+        .company span {
+            text-decoration: underline;
+        }
+
+        .box p {
+            font-size: 0.14rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.22rem;
+            text-indent: 0.28rem;
+            padding: 0 0.15rem;
+        }
+
+        .box .two-info {
+            padding: 0.12rem 0.15rem 0;
+        }
+
+        .box .name {
+            padding: 0.36rem 0 0.12rem;
+            font-size: 0.16rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.26rem;
+        }
+
+        .box .date {
+            padding: 0 0 0.15rem 0 !important;
+            font-size: 0.16rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.26rem;
+        }
+
+        .box .date2 {
+            padding: 0.36rem 0 0.12rem 0.15rem !important;
+            font-size: 0.16rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.26rem;
+        }
+
+        .box .address {
+            padding: 0 0 0.15rem 0 !important;
+            font-size: 0.16rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 0.26rem;
+        }
+
+        .box .enclosure {
+            text-indent: 0;
+        }
+
+        .box .enclosure-step {
+            text-indent: 0.42rem;
+        }
+.table1,.table3,.table2,.table4,.table5{
+    padding: 0 15px;
+    width: 90%;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    
+}
+
+.table1 span,.table3 span,.table5 span{
+    display:inline-block;
+    flex: 3;
+    border-left: 1px solid rgba(51, 51, 51, 1);
+    border-top: 1px solid rgba(51, 51, 51, 1);
+    border-bottom: 1px solid rgba(51, 51, 51, 1);
+}
+.table2 span,.table4 span{
+    text-indent: 0.0rem;
+    display:inline-block;
+    flex: 3;
+    border-left: 1px solid rgba(51, 51, 51, 1);
+}
+
+.table1 b,.table3 b,.table5 b{
+    display:inline-block;
+    flex: 7;
+    border: 1px solid #000;
+}
+
+.table2 b,.table4 b{
+    display:inline-block;
+    flex: 7;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h3><strong>客户委托扣款授权书</strong></h3>
+        <p>鉴于授权人________与自贡银行（被授权人）_____年___月___日签署的《客户委托扣款授权书》（以下简称“合同”），现授权人郑重声明已仔细阅知、理解下述各项规定并同意遵守：</p>
+        <p>
+            一、授权人同意被授权人在合同约定的限期内，委托上海银联电子支付服务有限公司（以下简称银联电子）从本授权书指定的账户（含银行卡等账户）内划付各种费用。
+        </p>
+        <p>二、授权人在指定账户中必须留有足够余额，否则因账户余额不足或不可归责于被授权人、银联电子的任何事由，导致无法及时扣款或扣款错误、失败，责任由授权人自行承担。
+
+        </p>
+        <p>
+            三、本授权书自授权人在前置界面勾选“□”并点击“同意”按键起生效。
+        </p>
+        <p>
+            四、授权人拟终止授权或变更授权人资料（详见下表）时，在当期款项交付日30个工作日通过相关交易前向被授权人递交申请，否则自行承担所造成的风险损失
+        </p>
+        <p>
+            五、授权人保证本授权书的真实性、合法性、有效性，被授权人依据本授权书进行的委托扣款操作引起的一切法律纠纷或风险，由授权人独立承担或解决。
+        </p>
+        <p>
+            授权人资料：
+        </p>
+          <ul class="table1">
+             <span>银行卡户名</span><b></b>
+          </ul>
+          <ul class="table2">
+            <span>银行卡开户银行</span><b></b>
+        </ul>
+        <ul class="table3">
+            <span>银行卡账号</span><b></b>
+        </ul>
+        <ul class="table4">
+            <span>身份证号码</span><b></b>
+        </ul>
+        <ul class="table5">
+            <span>联系手机</span><b></b>
+        </ul>
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        var firstParty = getUrlParam('firstParty');
+        var cardID = getUrlParam('cardID');
+        var addr = getUrlParam('addr');
+        var PhoneNumber = getUrlParam('PhoneNumber');
+        var money = getUrlParam('money');
+        var bankElecAccountNum = getUrlParam('bankElecAccountNum');
+        let currentDate = getNowFormatDate();
+        let validDayNum = 90;
+        let endDate = getNewDay(currentDate, validDayNum);
+        let validDayStr = validDayNum + '天';
+
+        if (money == 'null') { money = '' };
+
+        let firstPartyDom = document.getElementsByClassName('firstParty');    //姓名
+        let currentDateDom = document.getElementsByClassName('currentDate');  //日期
+        let cardIDDom = document.getElementsByClassName('cardID');            //身份证号码
+        let addrDom = document.getElementsByClassName('addr');                //地址
+        let PhoneNumberDom = document.getElementsByClassName('PhoneNumber');  //电话
+        let endDateDom = document.getElementsByClassName('endDate');          //结束的日期
+        let validDayStrDom = document.getElementsByClassName('validDayStr');  //存期
+        let bankElecAccountNumDom = document.getElementsByClassName('bankElecAccountNum'); //二类户账号
+        let moneyDom = document.getElementsByClassName('money');              //本金
+        let currentYearDom = document.getElementsByClassName('currentYear');  //当前年
+        let currentMonthDom = document.getElementsByClassName('currentMonth');//当前月
+        let currentDayDom = document.getElementsByClassName('currentDay');    //当前日
+
+        addInnerHTML(firstPartyDom, firstParty);
+        addInnerHTML(cardIDDom, cardID);
+        addInnerHTML(addrDom, addr);
+        addInnerHTML(PhoneNumberDom, PhoneNumber);
+        addInnerHTML(currentDateDom, currentDate);
+        addInnerHTML(endDateDom, endDate);
+        addInnerHTML(validDayStrDom, validDayStr);
+        addInnerHTML(bankElecAccountNumDom, bankElecAccountNum);
+        addInnerHTML(moneyDom, money);
+
+        let currentDateArr = currentDate.split('-');
+        addInnerHTML(currentYearDom, currentDateArr[0]);
+        addInnerHTML(currentMonthDom, currentDateArr[1]);
+        addInnerHTML(currentDayDom, currentDateArr[2]);
+
+        //获取url中的参数
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+            if (r != null) return decodeURI(r[2]); return null; //返回参数值
+        }
+
+        function addInnerHTML(domArr, data) {
+            if (!domArr.length) { return }
+            for (var i = 0; i < domArr.length; i++) {
+                domArr[i].innerHTML = data;
+            }
+        }
+
+        //获取当前时间，格式YYYY-MM-DD
+        function getNowFormatDate() {
+            var date = new Date();
+            var seperator1 = "-";
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            var currentdate = year + seperator1 + month + seperator1 + strDate;
+            return currentdate;
+        }
+
+        function getNewDay(dateTemp, days) {
+            var dateTemp = dateTemp.split("-");
+            var nDate = new Date(dateTemp[1] + '/' + dateTemp[2] + '/' + dateTemp[0]);
+            var millSeconds = Math.abs(nDate) + (days * 24 * 60 * 60 * 1000);
+            var rDate = new Date(millSeconds);
+            var year = rDate.getFullYear();
+            var month = rDate.getMonth() + 1;
+            if (month < 10) month = "0" + month;
+            var date = rDate.getDate();
+            if (date < 10) date = "0" + date;
+            return (year + "-" + month + "-" + date);
+        }
+
+    </script>
+
+</body>
+
+</html>

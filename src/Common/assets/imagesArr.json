@@ -1,0 +1,209 @@
+[
+    {
+        "fullName": "back@2x.png",
+        "name": "back@2x",
+        "ext": "png"
+    },
+    {
+        "fullName": "bank.png",
+        "name": "bank",
+        "ext": "png"
+    },
+    {
+        "fullName": "calculator.png",
+        "name": "calculator",
+        "ext": "png"
+    },
+    {
+        "fullName": "cardBg.png",
+        "name": "cardBg",
+        "ext": "png"
+    },
+    {
+        "fullName": "cardlogo.png",
+        "name": "cardlogo",
+        "ext": "png"
+    },
+    {
+        "fullName": "close.png",
+        "name": "close",
+        "ext": "png"
+    },
+    {
+        "fullName": "closeO.png",
+        "name": "closeO",
+        "ext": "png"
+    },
+    {
+        "fullName": "defaultCard.png",
+        "name": "defaultCard",
+        "ext": "png"
+    },
+    {
+        "fullName": "delIcon.png",
+        "name": "delIcon",
+        "ext": "png"
+    },
+    {
+        "fullName": "depositBg.jpg",
+        "name": "depositBg",
+        "ext": "jpg"
+    },
+    {
+        "fullName": "edit.png",
+        "name": "edit",
+        "ext": "png"
+    },
+    {
+        "fullName": "err.png",
+        "name": "err",
+        "ext": "png"
+    },
+    {
+        "fullName": "go.png",
+        "name": "go",
+        "ext": "png"
+    },
+    {
+        "fullName": "goBackWxMini.png",
+        "name": "goBackWxMini",
+        "ext": "png"
+    },
+    {
+        "fullName": "guohui.png",
+        "name": "guohui",
+        "ext": "png"
+    },
+    {
+        "fullName": "headers.png",
+        "name": "headers",
+        "ext": "png"
+    },
+    {
+        "fullName": "headers@2x.png",
+        "name": "headers@2x",
+        "ext": "png"
+    },
+    {
+        "fullName": "icon_screen.png",
+        "name": "icon_screen",
+        "ext": "png"
+    },
+    {
+        "fullName": "icon_screen_selected.png",
+        "name": "icon_screen_selected",
+        "ext": "png"
+    },
+    {
+        "fullName": "logo.png",
+        "name": "logo",
+        "ext": "png"
+    },
+    {
+        "fullName": "money.png",
+        "name": "money",
+        "ext": "png"
+    },
+    {
+        "fullName": "newresult.png",
+        "name": "newresult",
+        "ext": "png"
+    },
+    {
+        "fullName": "newsussess.png",
+        "name": "newsussess",
+        "ext": "png"
+    },
+    {
+        "fullName": "refresh.png",
+        "name": "refresh",
+        "ext": "png"
+    },
+    {
+        "fullName": "refreshs.png",
+        "name": "refreshs",
+        "ext": "png"
+    },
+    {
+        "fullName": "renxiang.png",
+        "name": "renxiang",
+        "ext": "png"
+    },
+    {
+        "fullName": "result.png",
+        "name": "result",
+        "ext": "png"
+    },
+    {
+        "fullName": "select.png",
+        "name": "select",
+        "ext": "png"
+    },
+    {
+        "fullName": "selected.png",
+        "name": "selected",
+        "ext": "png"
+    },
+    {
+        "fullName": "shouyi.png",
+        "name": "shouyi",
+        "ext": "png"
+    },
+    {
+        "fullName": "sketch.png",
+        "name": "sketch",
+        "ext": "png"
+    },
+    {
+        "fullName": "slices2x.png",
+        "name": "slices2x",
+        "ext": "png"
+    },
+    {
+        "fullName": "success.png",
+        "name": "success",
+        "ext": "png"
+    },
+    {
+        "fullName": "success1.png",
+        "name": "success1",
+        "ext": "png"
+    },
+    {
+        "fullName": "successB.png",
+        "name": "successB",
+        "ext": "png"
+    },
+    {
+        "fullName": "verifySuccess.png",
+        "name": "verifySuccess",
+        "ext": "png"
+    },
+    {
+        "fullName": "wait.png",
+        "name": "wait",
+        "ext": "png"
+    },
+    {
+        "fullName": "w_icon.png",
+        "name": "w_icon",
+        "ext": "png"
+    },
+    {
+        "fullName": "openWaiting.png",
+        "name": "openWaiting",
+        "ext": "png"
+    },
+    {
+        "fullName": "shibai.png",
+        "name": "shibai",
+        "ext": "png"
+    },
+    {
+        "fullName": "successBlue.png",
+        "name": "successBlue",
+        "ext": "png"
+    }
+    
+    
+]

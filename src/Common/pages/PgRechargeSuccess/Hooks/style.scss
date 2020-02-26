@@ -1,0 +1,44 @@
+@import 'Common/assets/style/px2rem.scss';
+
+.recharge-success {
+	.success {
+		background: #fff;
+		text-align: center;
+		padding-top: px2rem(36);
+		padding-bottom: px2rem(36);
+
+		.icon-success {
+			width: px2rem(88);
+			height: px2rem(102);
+		}
+
+		.text {
+			color: #333333;
+			font-size: px2rem(18);
+			line-height: px2rem(29);
+			padding-top: px2rem(40);
+			font-weight: 800;
+		}
+
+		.money {
+			width: 100%;
+			height: px2rem(54);
+			text-align: center;
+			line-height: px2rem(54);
+			font-size: px2rem(36);
+			font-weight: 500;
+			margin-top: px2rem(12);
+		}
+
+		.tip {
+			color: #999999;
+			font-size: px2rem(12);
+			line-height: px2rem(17);
+			padding: px2rem(8) 0 px2rem(36);
+		}
+	}
+	.ant-btn-dashed {
+		border: 1px solid #999999 !important;
+		color: #666 !important;
+	}
+}

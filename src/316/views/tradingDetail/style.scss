@@ -1,0 +1,249 @@
+@import 'Common/assets/style/px2rem.scss';
+
+.am-picker-popup-item-active {
+  background: #FFFFFF;
+}
+
+.am-picker-popup-header .am-picker-popup-header-right {
+  color: #508CEE;
+}
+
+.am-picker-popup-body {
+  overflow: hidden;
+}
+
+.details-list {
+  overflow: hidden;
+  h5 {
+    height: px2rem(42);
+    line-height: px2rem(42);
+    padding-left: px2rem(15);
+    font-size: px2rem(16);
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    background: #F5F5F5;
+  }
+  ul {
+    border-top: px2rem(1) solid #DDDDDD;
+    border-bottom: px2rem(1) solid #DDDDDD;
+    overflow: hidden;
+    background: #FFFFFF;
+    li {
+      height: px2rem(76);
+      margin-left: px2rem(15);
+      border-bottom: px2rem(1) solid #DDDDDD;
+  
+      p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // padding: px2rem(12) px2rem(15) 0 0;
+        padding-top:px2rem(12);
+        padding-right:px2rem(15);
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: #666666;
+      }
+  
+      p:last-child {
+        font-size: px2rem(12);
+        padding-top: px2rem(7);
+        padding-bottom: px2rem(12);
+      }
+  
+      .title {
+        // width:px2rem(40);
+        height:px2rem(26);
+        font-size:px2rem(16);
+        font-family:PingFangSC;
+        color:rgba(51,51,51,1);
+        line-height:26px;
+      }
+      .describe{
+        height:px2rem(22);
+        font-size:px2rem(14);
+        font-family:PingFangSC;
+        // color: #999999;
+        line-height:px2rem(22);
+      }
+      .money {
+        font-size: px2rem(15);
+      }
+  
+      .add-money {
+        color: #FD6423!important;
+        font-size: px2rem(16);
+      }
+  
+      .reduce-money {
+        font-size: px2rem(16);
+        color: rgba(20, 183, 150, 1);
+      }
+  
+      .date {
+        height: px2rem(19);
+        font-size: px2rem(12);
+        color: rgba(102, 102, 102, 1);
+        line-height: px2rem(19);
+      }
+  
+      .desc {
+        font-size: px2rem(14);
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+  
+    li:last-child {
+      border: none;
+    }
+  }
+}
+
+.details-lists {
+  .none-border {
+    border:0;
+  }
+  li:last-child {
+    border-bottom: px2rem(1) solid #DDDDDD!important;
+  }
+
+}
+
+.trading-details-list {
+  overflow: hidden;
+
+  h5 {
+    height: px2rem(42);
+    line-height: px2rem(42);
+    padding-left: px2rem(15);
+    font-size: px2rem(16);
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    background: #F5F5F5;
+  }
+
+  ul {
+    border-top: px2rem(1) solid #DDDDDD;
+    border-bottom: px2rem(1) solid #DDDDDD;
+    overflow: hidden;
+    background: #FFFFFF;
+    .lineheight {
+      height: px2rem(76)!important;
+      margin-left: px2rem(15);
+      border-bottom: px2rem(1) solid #DDDDDD;
+
+      p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // padding: px2rem(12) px2rem(15) 0 0;
+        padding-top: px2rem(12);
+        padding-right: px2rem(15);
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: #666666;
+      }
+
+      p:last-child {
+        font-size: px2rem(12);
+        padding-top: px2rem(7);
+        padding-bottom: px2rem(12);
+      }
+
+      .title {
+        // width:px2rem(40);
+        height: px2rem(26);
+        font-size: px2rem(16);
+        font-family: PingFangSC;
+        color: rgba(51, 51, 51, 1);
+        line-height: 26px;
+      }
+
+      .describe {
+        height: px2rem(22);
+        font-size: px2rem(14);
+        font-family: PingFangSC;
+        // color: #999999;
+        line-height: px2rem(22);
+      }
+
+      .money {
+        font-size: px2rem(15);
+      }
+
+      .add-money {
+        color: #FD6423!important;
+        font-size: px2rem(16);
+      }
+
+      .reduce-money {
+        font-size: px2rem(16);
+        // color: rgba(20, 183, 150, 1);
+        color: #333333;
+      }
+
+      .date {
+        height: px2rem(19);
+        font-size: px2rem(12);
+        color: rgba(102, 102, 102, 1);
+        line-height: px2rem(19);
+      }
+
+      .desc {
+        font-size: px2rem(14);
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+    li {
+      height: px2rem(98);
+      margin-left: px2rem(15);
+      border-bottom: px2rem(1) solid #DDDDDD;
+
+      p {
+        display: flex;
+        justify-content: space-between;
+        padding: px2rem(12) px2rem(15) 0 0;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: #666666;
+      }
+
+      p:last-child {
+        font-size: px2rem(12);
+      }
+
+      .title {
+        font-size: px2rem(15);
+        color: rgba(51, 51, 51, 1);
+      }
+
+      .money {
+        font-size: px2rem(15);
+      }
+
+      .add-money {
+        color: #F4333C;
+      }
+
+      .reduce-money {
+        color: rgba(20, 183, 150, 1);
+      }
+
+      .date {
+        font-size: px2rem(12);
+        color: rgba(102, 102, 102, 1);
+      }
+
+      .desc {
+        font-size: px2rem(14);
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+
+    li:last-child {
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import 'Common/assets/style/px2rem.scss';
+
+.addNewBank {
+  .addNewBank-tit {
+    width: 100%;
+    height: px2rem(56);
+    background: #2F4F7E;
+    padding: px2rem(18) px2rem(15) px2rem(16);
+    box-sizing: border-box;
+    
+    span {
+      font-size: px2rem(16);
+      color: #fff;
+    }
+  }
+}

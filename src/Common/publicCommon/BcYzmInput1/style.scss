@@ -1,0 +1,37 @@
+@import 'Common/assets/style/px2rem.scss';
+.yzm-container{
+    width: 100%;
+    height: px2rem(56);
+    .yzm-input{
+        height: px2rem(56);
+        padding: 0 px2rem(15);
+    }
+    .count-down{
+        width: px2rem(118);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: px2rem(56);
+    }
+}
+#timer{
+    color: #666666;
+    min-width: px2rem(82);
+    padding-left: px2rem(3);
+    text-align: center;
+}
+#retrieve{
+    color: #508CEE;
+    min-width: px2rem(82);
+    text-align: center;
+}
+.clearStyle{
+    width: 100%;
+    border:0!important;
+    outline: none;
+    background: #fff!important;
+    text-align: center;
+}
+.clearStyle:before{
+    display: none;
+}

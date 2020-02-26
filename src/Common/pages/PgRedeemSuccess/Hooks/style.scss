@@ -1,0 +1,65 @@
+@import 'Common/assets/style/px2rem.scss';
+
+.redeem-success {
+	.success {
+		background: #fff;
+		text-align: center;
+		padding-top: px2rem(36);
+		padding-bottom: px2rem(36);
+
+		.icon-success {
+			width: px2rem(88);
+			height: px2rem(102);
+		}
+
+		.text {
+			color: #333333;
+			font-size: px2rem(18);
+			line-height: px2rem(29);
+			padding-top: px2rem(40);
+			font-weight: 800;
+		}
+
+		.money {
+			width: 100%;
+			height: px2rem(54);
+			text-align: center;
+			line-height: px2rem(54);
+			font-size: px2rem(36);
+			font-weight: 500;
+			margin-top: px2rem(12);
+		}
+
+		.tip {
+			color: #999999;
+			font-size: px2rem(12);
+			line-height: px2rem(17);
+			padding: px2rem(8) 0 px2rem(36);
+		}
+  }
+  .info {
+    height: px2rem(44);
+    margin-left: px2rem(15);
+    border-bottom: px2rem(1) solid #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: px2rem(15);
+    font-size: px2rem(14);
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    :last-child{
+      color: #333333;
+    }
+  }
+  .repurchase{
+    margin-top: px2rem(37) !important;
+  }
+  .look-assets{
+    margin-top: px2rem(12) !important;
+    color: #999999 !important;
+    border:px2rem(1) solid rgba(153,153,153,1) !important;
+    background: #FFFFFF !important;
+  }
+}

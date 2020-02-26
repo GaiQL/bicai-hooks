@@ -1,0 +1,106 @@
+@import 'Common/assets/style/px2rem.scss';
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .content{
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        margin-top:px2rem(12);
+        .Location{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            padding-top:px2rem(10);
+            padding-bottom:px2rem(8);
+            align-items: center;
+            .Location-left{
+                flex:1;
+                padding-right:px2rem(8);
+                .Location-content{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: px2rem(16);
+                    .Location-region{
+                        padding-left:px2rem(15);
+                        color:#333333;
+                    }
+                    .Location-address{
+                        color:#666666;
+                        flex:1;
+                        text-align: right;
+                    }
+                }
+                .Location-error{
+                    text-align: right;
+                    padding-top:px2rem(12);
+                    font-size: px2rem(10);
+                    color:#F4333C;
+                }
+            }
+            .Location-right{
+                padding-right:px2rem(15);
+            }
+        }
+        .detailed{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            .detailed-section{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: px2rem(16);
+                // padding-top:px2rem(10);
+                padding-bottom:px2rem(10);
+                .am-textarea-label{
+                    padding-left:px2rem(15);
+                }
+                .am-textarea-control{
+                    padding-left:px2rem(80);
+                }
+                // .detailed-left{
+                //     padding-left:px2rem(15);
+                //     color:#333333;
+                // }
+                // .detailed-right{
+                //     width: px2rem(215);
+                //     font-size: px2rem(16);
+                //     color:#666666;
+                //     padding-left:px2rem(50);
+                //     text-align: right;
+                //     padding-right:px2rem(15);
+                //     border:none;
+                //     resize:none;
+                // }
+            }
+            .detailed-error{
+                width: 100%;
+                text-align: right;
+                padding-top:px2rem(12);
+                padding-bottom:px2rem(9);
+                padding-right:px2rem(15);
+                font-size: px2rem(10);
+                color:#F4333C;
+                box-sizing: border-box;
+            }
+        }
+    }
+    .bth-address{
+        width: px2rem(345);
+        height: px2rem(44);
+        background: #508CEE;
+        border-radius: px2rem(2);
+        color:white;
+        margin-top:px2rem(36);
+        text-align: center;
+        line-height: px2rem(44);
+    }
+}
