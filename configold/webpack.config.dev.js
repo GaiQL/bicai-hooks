@@ -10,23 +10,9 @@ const Config = require('./index')
  * 重写 react-scripts 默认配置
  */
 module.exports = (config, env, type) => {
-    setTitle(`当前银行🏦${type}😊`)
-    config.entry = [
-        require.resolve('react-dev-utils/webpackHotDevClient'),
-        `${paths(type).appSrc}/index.js`
-    ]
-    config.resolve.extensions = ['.ts', '.tsx', '.js', '.json', '.jsx'];
-    config.resolve.plugins.push(
-            new TsconfigPathsPlugin({
-            configFile: paths(type).appTsConfig
-        })
-    );
 
-    config.plugins.push(new MiniCssExtractPlugin({
-        filename: 'static/css/[name].css',
-        chunkFilename: 'static/css/[name].chunk.css',
-    }))
-    config.plugins.push(new ProgressBarPlugin())
+    config.plugins.push()
+    config.plugins.push()
     config.resolve.plugins.shift()
     config.resolve.alias = {
         "Common": path.resolve(rootDir, 'src', 'Common'),
