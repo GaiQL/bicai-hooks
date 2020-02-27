@@ -14,19 +14,28 @@ process.on('unhandledRejection', err => {
 // Ensure environment variables are read.
 require('../config/env');
 
+const verify = require('./verify.js');
+const createCommonIndex = require('./createCommonIndex');
+let bankId = process.argv[2];
+
+if( bankId != "Common" ){
+  verify( process.argv,"build" )
+}else{
+  createCommonIndex();
+}
 
 const path = require('path');
 const chalk = require('chalk');
 const fs = require('fs-extra');
 const webpack = require('webpack');
 const bfj = require('bfj');
-const config = require('../config/webpackConfig/webpack.config.prod');
-const paths = require('../config/paths');
 const checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
 const formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
 const printHostingInstructions = require('react-dev-utils/printHostingInstructions');
 const FileSizeReporter = require('react-dev-utils/FileSizeReporter');
 const printBuildError = require('react-dev-utils/printBuildError');
+const config = require('../config/webpackConfig/webpack.config.prod')(bankId);
+const paths = require('../config/paths')(bankId);
 
 const measureFileSizesBeforeBuild =
   FileSizeReporter.measureFileSizesBeforeBuild;
@@ -38,9 +47,6 @@ const WARN_AFTER_BUNDLE_GZIP_SIZE = 512 * 1024;
 const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024;
 
 const isInteractive = process.stdout.isTTY;
-
-const verify = require('./verify.js');
-verify( process.argv,"build" );
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
